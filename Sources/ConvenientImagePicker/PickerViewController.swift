@@ -190,7 +190,7 @@ public class PickerViewController: UIViewController {
     override public func viewDidLoad() {
         super.viewDidLoad()
         
-        NotificationCenter.default.addObserver(self, selector: #selector(self.screenHasRotation), name: .UIDeviceOrientationDidChange, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(self.screenHasRotation), name: UIDevice.orientationDidChangeNotification, object: nil)
         
         self.view.addSubview(self.backView)
         self.view.addSubview(self.mainView)
