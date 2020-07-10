@@ -31,7 +31,7 @@ TODO: This is a beautiful and simple image picker that can be used to select pho
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ConvenientImagePicker/Classes/**/*'
+  s.source_files = 'Sources/**/*.swift'
   
   s.resource_bundles = {
     'ConvenientImagePicker' => ['Images/*.{png,xcassets}']
