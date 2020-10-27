@@ -328,7 +328,7 @@ public class PickerViewController: UIViewController {
                 selectedImages[oneIndex] = self.GetImageFromIndex(item: oneIndex)
             }
             self.delegate?.imagePickerDidCancel(selectedImages)
-//            self.dismiss(animated: true, completion: nil)
+            self.dismiss(animated: true, completion: nil)
         }
     }
     
